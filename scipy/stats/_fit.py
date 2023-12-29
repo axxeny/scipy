@@ -919,7 +919,7 @@ def goodness_of_fit(dist, data, *, known_params=None, fit_params=None,
     to treat parameters of the distribution pre-fit to `data` (by the user)
     as though they were `known_params`, as specification of all parameters of
     the distribution precludes the need to fit the distribution to each Monte
-    Carlo sample. (This is essentially how the original Kilmogorov-Smirnov
+    Carlo sample. (This is essentially how the original Kolmogorov-Smirnov
     test is performed.) Although such a test can provide evidence against the
     null hypothesis, the test is conservative in the sense that small p-values
     will tend to (greatly) *overestimate* the probability of making a type I
